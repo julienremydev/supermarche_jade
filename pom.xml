@@ -3,4 +3,26 @@
   <groupId>m2sid</groupId>
   <artifactId>supermarche1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <!-- https://mvnrepository.com/artifact/net.sf.ingenias/jade -->
+  <repositories>
+  <repository> 
+    <id>tilab</id> 
+    <url>http://jade.tilab.com/maven/</url> 
+</repository>
+</repositories>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.2.4.Final</version>
+</dependency>
+  
+<dependency>  
+    <groupId>com.tilab.jade</groupId> 
+    <artifactId>jade</artifactId> 
+    <version>4.4.0</version>  
+</dependency>
+</dependencies>
+  
 </project>
