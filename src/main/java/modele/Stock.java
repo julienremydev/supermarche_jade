@@ -2,6 +2,8 @@ package modele;
 
 import java.util.Date;
 
+import fr.miage.agents.api.model.Produit;
+
 public class Stock {
 	private int id;
 	private int quantite;
@@ -40,5 +42,12 @@ public class Stock {
 
 	public void setProduit(Produit produit) {
 		this.produit = produit;
+	}
+
+	public static int getDateAchat(Produit produit) {
+		//TODO
+		//recuperer bdd
+		//retourner date now - nb jours du plus ancien achat
+		return 0;
 	}
 }
